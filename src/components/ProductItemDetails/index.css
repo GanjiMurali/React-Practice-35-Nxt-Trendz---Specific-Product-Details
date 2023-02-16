@@ -1,0 +1,160 @@
+/* Write your CSS here */
+.product-img {
+  height: 600px;
+  width: 450px;
+  border-radius: 10px;
+}
+
+.pro-container {
+  margin: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.data-container {
+  margin-left: 20px;
+}
+
+.product-heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-top: 0px;
+  font-size: 40px;
+}
+
+.product-price {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.rating-con {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.star-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b82f6;
+  color: #ffffff;
+  height: 30px;
+  width: 70px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.rating-para {
+  font-family: 'Roboto';
+  margin-right: 3px;
+}
+
+.rating-star {
+  height: 20px;
+}
+
+.font-family-para {
+  font-family: 'Roboto';
+}
+
+.available {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.horizontal {
+  width: 100%;
+}
+
+.increase-items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.inc-button {
+  margin-right: 28px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 22px;
+  margin: 10px;
+  padding: 0px;
+}
+
+.padding {
+  padding: 4px;
+}
+
+.add-cart-button {
+  height: 40px;
+  width: 120px;
+  color: #ffffff;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.not-found-con {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found {
+  height: 300px;
+  width: 500px;
+  margin: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.not-found-heading {
+  font-family: 'Roboto';
+}
+
+.not-found-button {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+  background-color: #0967d2;
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.failure-heading {
+  font-family: 'Roboto';
+}
+
+.failure-button {
+  background-color: #0967d2;
+  height: 32px;
+  border: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.failure-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.similar-product-heading {
+  font-family: 'Roboto';
+}
+
+.unOrder-list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+
+.similar-img {
+  height: 170px;
+  width: 200px;
+  border-radius: 4px;
+}
+
+.similar-list-item {
+  margin-right: 30px;
+  width: 200px;
+}
+
+.similar-cards-con {
+  margin-bottom: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.similar-para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  text-align: start;
+}
+
+.similar-brand {
+  font-family: 'Roboto';
+  text-align: start;
+}
+
+.similar-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.star-con {
+  margin: 0px;
+}
+
+.similar-price {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
